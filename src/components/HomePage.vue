@@ -17,13 +17,13 @@ import "./TextFormComponent.vue"
     <b-card-body>
         <div>
             <b-form inline>
-                <label class="sr-only" for="inline-form-input-name">Name</label>
+                <label class="sr-only" for="inline-form-input-name">Ciudad de origen</label>
                 <b-form-input
                 id="inline-form-input-name"
                 placeholder="Origen"
                 ></b-form-input>
 
-                <label class="sr-only" for="inline-form-input-username">Username</label>
+                <label class="sr-only" for="inline-form-input-username">Ciudad de destino</label>
                 <b-form-input 
                 id="inline-form-input-username" 
                 placeholder="Destino"
@@ -42,7 +42,7 @@ import "./TextFormComponent.vue"
                 ></b-form-datepicker>
 
                 <b-button variant="primary" style="margin-top:20px">
-                    <router-link to="/about" style="text-decoration: none; color: white;">Buscar</router-link>
+                    <router-link to="/results" style="text-decoration: none; color: white;">Buscar</router-link>
                 </b-button>
             </b-form>
         </div>

@@ -4,11 +4,7 @@
 </script>
 
 <template>  
-<div>
-    <span>ssss</span>
-
-</div>
-    <!-- <div>
+    <div>
         <b-card
         overlay
         img-src="https://picsum.photos/900/250/?image=3"
@@ -27,5 +23,5 @@
             </div>
         </b-card-body>
         </b-card>
-    </div> -->
+    </div>
 </template>
